@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta name="keyword" content="Events">
+	<meta name="beschreibung" content="Events abspeichern über MongoDB">
+	<meta name="autor" content="Winand">
+	<meta charset="utf-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="style.css">
+	<script src="Client/client.js" defer></script>
+    <title>Eventseite</title>
+</head>
+<body>
+    <header><h1 id= "ueberschrift1">Eventseite</h1></header>
+	<main>
+			<div id="eventInput-HTML">
+                <div class="inputfield" id="kuenstlerInputDiv">
+                    <label for="inputEvent">Event</label></br>
+                    <input type="text" id="inputEvent" placeholder="event">
+                </div>
+                <div class="inputfield" id="preisInputDiv">
+                    <label for="inputPrice">Preis</label></br>
+                    <input type="number" id="inputPrice" placeholder="€">
+                </div>
+                <button id="hinzufuegenButton" onclick="return false">add</button>
+            </div>
+        
+            <div id="tabellenInhalt">
+            <h2 id="ueberschrift2">Folgende Events stehen an</h2>
+            <table id="tabelleEvents">
+                <tr>
+                    <th id="kuenstler">Künstler</th>
+                    <th id="preis">Preis</th>
+                </tr>
+            </table>
+        </div>
+		
+	</main>
+	<footer>
+		<nav>
+		</nav>
+	</footer>
+</body>
+
+</html>

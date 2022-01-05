@@ -1,0 +1,14 @@
+#ueberschrift1{
+    color:chartreuse;
+    text-align: center;
+}
+#ueberschrift2{
+    color: chartreuse;
+    text-align: center;
+}
+#eventInput-HTML{
+    text-align: center;
+}
+#tabellenInhalt,#kuenster,#preis,#tabelleEvents{
+    text-align: center;
+}
